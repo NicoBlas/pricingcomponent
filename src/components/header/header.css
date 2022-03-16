@@ -47,7 +47,7 @@
 }
 
 .header__button input:checked{
-    background: #03a9f4
+    background: hsl(258, 54%, 59%)
 }
 
 .header__button input:before{

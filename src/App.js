@@ -2,6 +2,7 @@
 import './App.css';
 import Header from './components/header/Header';
 import PricingList from './components/pricingList/PricingList';
+import Pricing from "./components/pricing/Pricing"
 
 function App() {
   return (
