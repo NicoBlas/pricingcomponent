@@ -39,7 +39,7 @@
     width: 60px;
     height: 30px;
     -webkit-appearance: none;
-    background: #c6c6c6;
+    background: hsl(258, 54%, 59%);
     outline: none;
     border-radius: 20px;
     box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
