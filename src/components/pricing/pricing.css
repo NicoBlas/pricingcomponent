@@ -188,6 +188,10 @@
 
 
 @media screen and (max-width: 430px){
+
+    body{
+        justify-content: flex-start;
+    }
     .pricing{
         height: 450px;
         width:80vw ;
