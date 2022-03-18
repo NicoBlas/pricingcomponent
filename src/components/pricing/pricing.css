@@ -1,5 +1,5 @@
 .pricing{
-    height: 55vh;
+    height: 400px;
     width:20vw ;
     background: white;
     border-radius: 20px;
@@ -10,7 +10,7 @@
 }
 
 .pricing-mid{
-    height: 62vh;
+    height: 460px;
     width:20vw ;
     background: hsl(258, 54%, 59%);;
     border-radius: 20px;
