@@ -19,6 +19,8 @@
     flex-direction: column;
     align-items: center;
     color: #fff;
+    position: relative;
+    
     
     
 }
@@ -28,13 +30,38 @@
     font-family: var(--font-family);
     color: hsl(233, 13%, 49%);
     padding-top: 5px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+
 }
+
+
+
+.discount{
+   color: rgb(0, 245, 61);
+   font-size: 20px;
+   font-weight: bold;
+   position: absolute;
+   top: -25px;
+   right: 6px;
+   font-family: var(--font-family);
+   text-decoration-line: underline;
+}
+
+.discountBlock{
+    display: none;
+}
+
 
 .pricing__pack-mid{
     font-family: var(--font-family);
     color: #fff;
     padding-top: 5px;
     margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
 
 
 }
@@ -45,6 +72,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 
@@ -52,7 +80,7 @@
 .pricing__price-price{
     font-family: var(--font-family);
     color: hsl(232, 13%, 33%);
-    font-size: 28px;   
+    font-size: 28px;
 }
 
 .pricing__price-price-mid{

@@ -1,14 +1,19 @@
 import React ,{useState} from 'react'
 import "./pricing.css"
+import { PriceContext } from '../PriceContext'
+import { useContext } from 'react'
 
 
 const Pricing = (props) => {
+
+    const {value} = useContext(PriceContext)
     
     return (
         
         <div className={props.mid?"pricing-mid":"pricing"}>
             <div className={props.mid?"pricing__pack-mid":'pricing__pack'}>
                 <h3>{props.pack}</h3>
+                <h4 className={!value?"discount":"discountBlock"}>15% OFF!</h4>
             </div>
 
             <div className='pricing__price' >
