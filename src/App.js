@@ -1,16 +1,27 @@
 
+import { useState } from 'react';
 import './App.css';
 import Header from './components/header/Header';
+import { PriceContext } from './components/PriceContext';
 import PricingList from './components/pricingList/PricingList';
-import Pricing from "./components/pricing/Pricing"
+
+
 
 function App() {
+
+  const [value, setValue] = useState(false)
+
+
   return (
-    <div className="App">
-      <Header />
-      <PricingList />
+    <PriceContext.Provider value={{value, setValue}}>
+      <div className="App">
+        <Header />
+        <PricingList />
       
-    </div>
+      </div>
+      
+    </PriceContext.Provider>
+    
   );
 }
 
