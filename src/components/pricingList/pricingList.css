@@ -6,3 +6,13 @@
     margin-top: 60px;
 }
 
+
+
+@media screen and (max-width: 430px){
+    .pricingList{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}

@@ -64,6 +64,7 @@
 
 
 
+
 .pricing__price-f-mid h2{
     color: #fff;
     font-family: var(--font-family);
@@ -113,7 +114,7 @@
     width: 85%;
     text-align: center;
     padding: 0 2rem;
-    border-top: 1px groove hsl(240, 78%, 98%);
+    border-top: 1px groove rgba(0,0,0,0.2);
     font-size: 12px;
 
 }
@@ -122,7 +123,7 @@
     width: 85%;
     text-align: center;
     padding: 0 2rem;
-    border-top: 1px groove #fff;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
     font-size: 12px;
 
 }
@@ -180,3 +181,41 @@
     border: #fff;
 }
 
+
+
+@media screen and (max-width: 430px){
+    .pricing{
+        height: 50vh;
+        width:80vw ;
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 0 10px 0.05px hsl(234, 10%, 84%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .pricing-mid{
+        height: 50vh;
+        width:80vw ;
+        background: hsl(258, 54%, 59%);;
+        border-radius: 20px;
+        box-shadow: 0 0 10px 0.05px hsl(234, 10%, 84%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        margin-top: 30px;
+        
+    }
+
+    h1{
+        font-size: 50px;
+    }
+    
+    h3{
+        font-size: 16px;
+    }
+
+}
