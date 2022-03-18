@@ -185,7 +185,7 @@
 
 @media screen and (max-width: 430px){
     .pricing{
-        height: 50vh;
+        height: 60vh;
         width:80vw ;
         background: white;
         border-radius: 20px;
@@ -197,7 +197,7 @@
     }
 
     .pricing-mid{
-        height: 50vh;
+        height: 60vh;
         width:80vw ;
         background: hsl(258, 54%, 59%);;
         border-radius: 20px;
@@ -216,6 +216,19 @@
     
     h3{
         font-size: 16px;
+    }
+
+    .pricing__button-mid{
+        width: 85%;
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+    .pricing__button{
+        width: 85%;
+        text-align: center;
+        margin-top: 20px;
+        
     }
 
 }
