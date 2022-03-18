@@ -144,7 +144,9 @@
     color: hsl(258, 54%, 59%);
     font-weight: 600;
     cursor: pointer;
-    border: 1px 1px 1px hsl(258, 54%, 59%);
+    border-style: groove;
+    border-color: hsl(258, 54%, 59%);
+    border-width: 2px;
 }
 
 .pricing__button-mid{
